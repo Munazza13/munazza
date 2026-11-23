@@ -104,7 +104,7 @@ for model_name,model in models.items():
     param_grid=param_grids[model_name],
     scoring="f1",
     cv=5,
-    n_jobs=_1
+    n_jobs=-1
   )
   grid_search.fit(X_train,y_train)
   best_models[model_name]=grid_search.best_estimator_
