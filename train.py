@@ -20,7 +20,7 @@ X=pd.DataFrame(
   columns=data.feature_names
 )
 y=pd.Series(data.target,name="target")
-print("Dataset shape":X.shape)
+print("Dataset shape:",X.shape)
 print("\nFirst 5 rows:")
 print(X.head())
 print("\nTarget values:")
