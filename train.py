@@ -100,7 +100,7 @@ for model_name,model in models.items():
     ("model",model)
   ])
   grid_search=GridSearchCV(
-    estimator=pipeline,
+    estimator=Pipeline,
     param_grid=param_grids[model_name],
     scoring="f1",
     cv=5,
