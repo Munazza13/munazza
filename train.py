@@ -72,7 +72,7 @@ param_grids={
   "model__kernel":["linear","rbf"],
   "model__gamma":["scale","auto"]
 }
-}
+
 #STEP 6:Run GridSearchCV for every algorithm
 results=[]
 best_models=[]
