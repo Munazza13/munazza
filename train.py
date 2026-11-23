@@ -112,8 +112,8 @@ for model_name,model in models.items():
     "Model":model_name,
     "Best Parameters":grid_search.best_params_
   })
-                print("Best F1 Score:",round(grid_search.best_score_,4))
-                print("Best Parameters:",grid_search.best_params_)
+print("Best F1 Score:",round(grid_search.best_score_,4))
+print("Best Parameters:",grid_search.best_params_)
 #STEP 7:Compare all models
 results_df=pd.DataFrame(results)
 results_df=results_df.sort_values(
