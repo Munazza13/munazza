@@ -133,7 +133,7 @@ best_cv_f1=results_df.iloc[0]["Best F1 Score"]
 print("\nBest model based on CV F1-Score")
 print(best_model_name)
 print("\nBest CV F1-Score:")
-print(round(best_cv_f1,4)
+print(round(best_cv_f1,4))
 #STEP 9:Evaluate on unseen test data
 y_pred=best_model.predict(X_test)
 print("\n"+"="*60)
