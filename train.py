@@ -125,7 +125,7 @@ print("\n"+"="*60)
 print("FINAL MODEL EVALUATION")
 print("="*60)
 print("Accurac:",accuracy_score(y_test,y_pred))
-print(F1 Score:",f1_score(y_test,y_pred))
+print("F1 Score:",f1_score(y_test,y_pred))
       print("\nClassification Report:")
       print(
         classification_report(
