@@ -69,20 +69,20 @@ param_grids={
   "model__C":[0.1,1,10],
   "model__solver":["liblinear"]
 },
-"KNN":{
+  "KNN":{
   "model__n_neighbors":[3,5,7,9],
   "model__weights":["uniform","distance"]
 },
-"Decision Tree":{
+  "Decision Tree":{
   "model__max_depth":[None,3,5,10],
   "model__min_samples_split":[2,5,10]
 },
-"Random Forest":{
+  "Random Forest":{
   "model__n_estimators":[100,200],
   "model__max_depth":[None,5,10],
   "model__min_samples_split":[2,5]
 },
-"SVM":{
+  "SVM":{
   "model__C":[0.1,1,10],
   "model__kernel":["linear","rbf"],
   "model__gamma":["scale","auto"]
