@@ -65,6 +65,7 @@ models={
 
 #STEP 5: Define hyperparameter grids
 param_grids={
+ {
   "model__C":[0.1,1,10],
   "model__solver":["liblinear"]
 },
@@ -86,7 +87,7 @@ param_grids={
   "model__kernel":["linear","rbf"],
   "model__gamma":["scale","auto"]
 }
-
+}
 #STEP 6:Run GridSearchCV for every algorithm
 results=[]
 best_models={}
