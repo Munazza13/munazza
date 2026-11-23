@@ -96,7 +96,7 @@ for model_name,model in models.items():
   result.append({
     "Model":model_name,
     "Best Parameters":Grid_search.best_params_
-  }]
+  })
                 print("Best F1 Score:",round(grid_search.best_score_,4))
                 print("Best Parameters:",grid_searcj.best_params_)
 #STEP 7:Compare all models
