@@ -64,8 +64,9 @@ models={
 
 
 #STEP 5: Define hyperparameter grids
-param_grids={
+param_grids=
  {
+  "Logistic Regression":{
   "model__C":[0.1,1,10],
   "model__solver":["liblinear"]
 },
