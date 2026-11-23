@@ -141,19 +141,19 @@ print("FINAL MODEL EVALUATION")
 print("="*60)
 print("Accurac:",accuracy_score(y_test,y_pred))
 print("F1 Score:",f1_score(y_test,y_pred))
-      print("\nClassification Report:")
-      print(
+print("\nClassification Report:")
+print(
         classification_report(
           y_test,
           y_pred,
           target_names=data.target_names
         )
       )
-      print("\nConfusion Matrix:")
-      print(confusion_matrix(y_test,y_pred))
+print("\nConfusion Matrix:")
+print(confusion_matrix(y_test,y_pred))
   #STEP 10:Save the best model
-  joblib.sump(best_model,"best_model.joblib")
-      print("\nBest model saved successfully!")
-      print("Model:",best_model_name)
+joblib.sump(best_model,"best_model.joblib")
+print("\nBest model saved successfully!")
+print("Model:",best_model_name)
       
       
